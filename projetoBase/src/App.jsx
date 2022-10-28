@@ -1,11 +1,14 @@
 import { TerceiraAula } from './lessons/TerceiraAula'
+import { QuintaAula } from './lessons/QuintaAula'
 
 function App() {
 
   return (
     // <Login />
     //<SegundaAula />
-   <TerceiraAula />
+   //<TerceiraAula />
+   //<QuintaAula />
+   <DHGames />
   )
 }
 
