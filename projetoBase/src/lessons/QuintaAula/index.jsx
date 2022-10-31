@@ -30,9 +30,9 @@ export function QuintaAula() {
         <div className='quinta-aula-component'>
             <h1 className='main-title'>Componentes identificados</h1>
             <ul className='components-finded'>
-                {componentsFinded.map(item => {
+                {componentsFinded.map(component => {
                     return (
-                <QuintaAulaItem key={item.id} component={item}/>
+                <QuintaAulaItem key={component.id} item={component}/>
                     )
             }
 )}
